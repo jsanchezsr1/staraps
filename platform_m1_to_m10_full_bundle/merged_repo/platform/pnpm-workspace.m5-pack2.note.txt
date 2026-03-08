@@ -1,2 +1,0 @@
-Milestone 5 Pack 2 adds this package:
-- packages/plugin-registry

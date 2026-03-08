@@ -1,3 +1,0 @@
-Milestone 4 Pack 4 adds these packages:
-- packages/app-spec-diff
-- packages/diagnostics

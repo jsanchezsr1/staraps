@@ -1,2 +1,0 @@
-Milestone 9 Pack 2 adds this package:
-- packages/experimentation

@@ -1,5 +1,0 @@
-Add this to api-platform/src/app.ts
-
-import { registerDeveloperRoutes } from "./modules/developer/routes";
-
-registerDeveloperRoutes(app);
