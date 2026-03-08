@@ -1,0 +1,24 @@
+{
+  "name": "@platform/generator",
+  "version": "1.0.0-m1",
+  "private": true,
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "scripts": {
+    "build": "tsc -p tsconfig.json",
+    "dev": "tsc -w -p tsconfig.json",
+    "lint": "echo no-op"
+  },
+  "dependencies": {
+    "@platform/app-spec": "workspace:*",
+    "@platform/shared": "workspace:*",
+    "@platform/templates": "workspace:*",
+    "archiver": "^7.0.1",
+    "fs-extra": "^11.2.0",
+    "prettier": "^3.3.3"
+  },
+  "devDependencies": {
+    "@types/fs-extra": "^11.0.4",
+    "typescript": "^5.5.0"
+  }
+}

@@ -1,0 +1,29 @@
+{
+  "name": "platform",
+  "private": true,
+  "version": "1.0.0-m1",
+  "packageManager": "pnpm@9.0.0",
+  "scripts": {
+    "build": "turbo run build",
+    "dev": "turbo run dev",
+    "dev:all": "pnpm --parallel --filter @platform/api-platform dev --filter @platform/web-platform dev --filter @platform/worker dev",
+    "lint": "turbo run lint",
+    "test": "turbo run test",
+    "bootstrap": "bash scripts/bootstrap.sh",
+    "dev:reset": "bash scripts/dev-reset.sh"
+  },
+  "devDependencies": {
+    "@types/node": "^22.0.0",
+    "eslint": "^9.0.0",
+    "prettier": "^3.3.0",
+    "turbo": "^2.0.0",
+    "typescript": "^5.5.0",
+    "husky": "^9.1.4",
+    "lint-staged": "^15.2.8"
+  },
+  "lint-staged": {
+    "*.{ts,tsx,js,jsx,json,md,yml,yaml}": [
+      "prettier --write"
+    ]
+  }
+}
