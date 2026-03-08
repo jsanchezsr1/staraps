@@ -1,0 +1,8 @@
+aws_region      = "us-east-1"
+project_name    = "platform-prod"
+web_image       = "123456789012.dkr.ecr.us-east-1.amazonaws.com/platform-web:latest"
+api_image       = "123456789012.dkr.ecr.us-east-1.amazonaws.com/platform-api:latest"
+worker_image    = "123456789012.dkr.ecr.us-east-1.amazonaws.com/platform-worker:latest"
+certificate_arn = "arn:aws:acm:us-east-1:123456789012:certificate/replace-me"
+domain_name     = "app.example.com"
+api_domain_name = "api.example.com"

@@ -1,0 +1,7 @@
+Add this import in api-platform/src/app.ts:
+
+import { registerAIRoutes } from "./modules/ai/routes";
+
+Then call:
+
+registerAIRoutes(app);

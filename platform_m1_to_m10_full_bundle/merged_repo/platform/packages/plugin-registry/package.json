@@ -1,0 +1,20 @@
+{
+  "name": "@platform/plugin-registry",
+  "version": "5.0.0-m5-pack2",
+  "private": true,
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "scripts": {
+    "build": "tsc -p tsconfig.json",
+    "dev": "tsc -w -p tsconfig.json",
+    "lint": "echo no-op"
+  },
+  "dependencies": {
+    "@platform/database": "workspace:*",
+    "@platform/shared": "workspace:*",
+    "@platform/plugins": "workspace:*"
+  },
+  "devDependencies": {
+    "typescript": "^5.5.0"
+  }
+}
