@@ -1,0 +1,34 @@
+{
+  "extends": "../../tsconfig.base.json",
+<<<<<<< HEAD
+  "compilerOptions": {
+    "outDir": "dist",
+    "baseUrl": ".",
+    "moduleResolution": "Node",
+    "skipLibCheck": true,
+    "noImplicitAny": false,
+    "paths": {
+      "@platform/shared": ["../../packages/shared/src"],
+      "@platform/shared/*": ["../../packages/shared/src/*"],
+      "@platform/database": ["../../packages/database/src"],
+      "@platform/database/*": ["../../packages/database/src/*"],
+      "@platform/generator": ["../../packages/generator/src"],
+      "@platform/generator/*": ["../../packages/generator/src/*"],
+      "@platform/plugins/runtime": ["../../packages/plugins/src/runtime"],
+      "@platform/runtime": ["../../packages/runtime/src"],
+      "@platform/runtime/*": ["../../packages/runtime/src/*"],
+      "@platform/storage": ["../../packages/storage/src"],
+      "@platform/storage/*": ["../../packages/storage/src/*"],
+      "@platform/billing": ["../../packages/billing/src"],
+      "@platform/billing/*": ["../../packages/billing/src/*"],
+      "@platform/ai-builder": ["../../packages/ai-builder/src"],
+      "@platform/ai-builder/*": ["../../packages/ai-builder/src/*"]
+    }
+  },
+  "include": ["src", "src/types/**/*.d.ts"],
+  "exclude": ["dist", "node_modules"]
+=======
+  "compilerOptions": { "outDir": "dist", "rootDir": "src" },
+  "include": ["src"]
+>>>>>>> 1e6f3bc09828941df8fa5837cc31adc361ae5090
+}

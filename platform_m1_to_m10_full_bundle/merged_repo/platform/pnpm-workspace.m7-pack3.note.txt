@@ -1,2 +1,0 @@
-Milestone 7 Pack 3 adds this package:
-- packages/builder-sync

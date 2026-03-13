@@ -1,5 +1,0 @@
-Add this package path to pnpm-workspace.yaml if not already present:
-- "packages/*"
-
-The new package introduced by Milestone 3 Pack 1 is:
-- packages/plugins

@@ -1,0 +1,15 @@
+{
+  "extends": "../../tsconfig.base.json",
+<<<<<<< HEAD
+  "compilerOptions": {
+    "outDir": "dist",
+    "baseUrl": ".",
+    "skipLibCheck": true
+  },
+  "include": ["src"],
+  "exclude": ["dist", "node_modules"]
+=======
+  "compilerOptions": { "outDir": "dist", "rootDir": "src" },
+  "include": ["src"]
+>>>>>>> 1e6f3bc09828941df8fa5837cc31adc361ae5090
+}
