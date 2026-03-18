@@ -1,2 +1,0 @@
-Milestone 8 Pack 5 adds this package:
-- packages/model-router

@@ -1,2 +1,0 @@
-Milestone 4 Pack 1 adds this package:
-- packages/storage

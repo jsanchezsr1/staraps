@@ -1,2 +1,0 @@
-Milestone 8 Pack 4 adds this package:
-- packages/prompt-registry

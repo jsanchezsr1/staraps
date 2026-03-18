@@ -1,2 +1,0 @@
-Milestone 7 Pack 2 adds this package:
-- packages/visual-builder
